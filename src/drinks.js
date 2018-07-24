@@ -16,4 +16,12 @@ export const drinks = [
 		ingreds: ["0.25oz Lime Juice", "2oz CH Vodka", "Ginger Beer"],
 		desc: "Build in mason jar, pour lime juice, vodka, fill with ice, top with ginger beer"
 	},
+	{
+		id: 1,
+		name: 'Strawberry Daquiri',
+		garnish: "Strawberry Lime Deco",
+		glass: "chilled Coupe",
+		ingreds: ["0.5oz Lime Juice", "1oz Strawberry Syrup", "1.5 Don Q Cristal Rum"],
+		desc: "Build in small tin, shake vigorously and strain"
+	},
 ]

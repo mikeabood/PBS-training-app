@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Drink = ({ name, garnish }) => {
+const Drink = ({ name, garnish, ingreds }) => {
 	return (
 		<div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
 			{/*<h1>Old Fashioned</h1>*/} 
@@ -9,6 +9,7 @@ const Drink = ({ name, garnish }) => {
 			<div>
 				<h2>{name}</h2>
 				<p>garnish: {garnish}</p>
+				{/*<p>{ingreds[i]}</p> */}
 			</div>
 		</div> 
 		);
