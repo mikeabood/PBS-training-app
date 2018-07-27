@@ -25,6 +25,12 @@ class App extends Component {
 		// console.log(filteredDrinks);
 		return (
 			<div className='tc'>
+				<img 
+				className='tl' 
+				height="150px" 
+				width="150px" 
+				src="https://uploads.poachedjobs.com/wp-content/uploads/2017/05/08165621/Main-Logo-300x300.png" 
+				/> 
 				<h1>PBS Drink Menu</h1> 
 				<SearchBox searchChange={this.onSearchChange}/> 
 				<CardList drinks={filteredDrinks} /> 
