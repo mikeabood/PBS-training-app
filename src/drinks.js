@@ -9,7 +9,7 @@ export const drinks = [
 		desc: "Build in rocks glass, muddle orange peel on the wheel, add syrup and bitters, fill glass 90% with ice pour 2 oz of Old Forester on top, splash with light soda"
 	},
 	{
-		id: 1,
+		id: 2,
 		name: 'Mason Mule',
 		garnish: 'Lime Wheel',
 		glass: 'Mason Jar',
@@ -17,7 +17,7 @@ export const drinks = [
 		desc: "Build in mason jar, pour lime juice, vodka, fill with ice, top with ginger beer"
 	},
 	{
-		id: 1,
+		id: 3,
 		name: 'Strawberry Daquiri',
 		garnish: "Strawberry Lime Deco",
 		glass: "chilled Coupe",

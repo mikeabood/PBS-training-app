@@ -1,4 +1,4 @@
-import React, { component } from 'react';
+import React, { Component } from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox'; 
 import Footer from './Footer'; 
@@ -11,16 +11,25 @@ class App extends Component {
 		this.state = {
 			drinks: drinks,
 			searchfield: ''
-		}
+		} 
 	}
+
+	onSearchChange = (e) => {
+		this.setState({ searchfield: e.target.value });  
+	}
+
 	render() {
-	return (
-		<div className='tc'>
-		<h1>PBS Drink Menu</h1> 
-		<SearchBox /> 
-		<CardList drinks={this.state.drinks} /> 
-		<Footer /> 
-		</div> 
+		const filteredDrinks = this.state.drinks.filter(drink =>{
+			return drink.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+		})
+		// console.log(filteredDrinks);
+		return (
+			<div className='tc'>
+				<h1>PBS Drink Menu</h1> 
+				<SearchBox searchChange={this.onSearchChange}/> 
+				<CardList drinks={filteredDrinks} /> 
+				<Footer /> 
+			</div> 
 
 		);
 	}
