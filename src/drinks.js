@@ -27,7 +27,7 @@ export const drinks = [
 		desc: "Build in small tin, shake vigorously and strain"
 	},
 	{
-		id: 3,
+		id: 4,
 		name: 'Strawberry Daquiri',
 		url: 'https://mittkok.expressen.se/wp-content/uploads/2013/12/froznfotolia_80944779_subscription_monthly_xxl-674x700.jpg',
 		garnish: "Strawberry Lime Deco",
@@ -36,7 +36,7 @@ export const drinks = [
 		desc: "Build in small tin, shake vigorously and strain"
 	},
 	{
-		id: 3,
+		id: 5,
 		name: 'Strawberry Daquiri',
 		url: 'https://mittkok.expressen.se/wp-content/uploads/2013/12/froznfotolia_80944779_subscription_monthly_xxl-674x700.jpg',
 		garnish: "Strawberry Lime Deco",
@@ -45,7 +45,7 @@ export const drinks = [
 		desc: "Build in small tin, shake vigorously and strain"
 	},
 	{
-		id: 3,
+		id: 6,
 		name: 'Strawberry Daquiri',
 		url: 'https://mittkok.expressen.se/wp-content/uploads/2013/12/froznfotolia_80944779_subscription_monthly_xxl-674x700.jpg',
 		garnish: "Strawberry Lime Deco",
