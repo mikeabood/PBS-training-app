@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Drink = ({ name, url, garnish, glass, ingreds, desc }) => {
+const Card = ({ name, url, garnish, glass, ingreds, desc }) => {
 	return (
 		<div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
 			{/*<h1>Old Fashioned</h1>*/} 
@@ -15,6 +15,5 @@ const Drink = ({ name, url, garnish, glass, ingreds, desc }) => {
 		);
 }
 
-// https://cdn.liquor.com/wp-content/uploads/2018/05/08113350/bourbon-old-fashioned-720x720-recipe.jpg
 
-export default Drink; 
+export default Card; 

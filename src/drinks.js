@@ -26,6 +26,33 @@ export const drinks = [
 		ingreds: ["0.5oz Lime Juice", "1oz Strawberry Syrup", "1.5 Don Q Cristal Rum"],
 		desc: "Build in small tin, shake vigorously and strain"
 	},
+	{
+		id: 3,
+		name: 'Strawberry Daquiri',
+		url: 'https://mittkok.expressen.se/wp-content/uploads/2013/12/froznfotolia_80944779_subscription_monthly_xxl-674x700.jpg',
+		garnish: "Strawberry Lime Deco",
+		glass: "chilled Coupe",
+		ingreds: ["0.5oz Lime Juice", "1oz Strawberry Syrup", "1.5 Don Q Cristal Rum"],
+		desc: "Build in small tin, shake vigorously and strain"
+	},
+	{
+		id: 3,
+		name: 'Strawberry Daquiri',
+		url: 'https://mittkok.expressen.se/wp-content/uploads/2013/12/froznfotolia_80944779_subscription_monthly_xxl-674x700.jpg',
+		garnish: "Strawberry Lime Deco",
+		glass: "chilled Coupe",
+		ingreds: ["0.5oz Lime Juice", "1oz Strawberry Syrup", "1.5 Don Q Cristal Rum"],
+		desc: "Build in small tin, shake vigorously and strain"
+	},
+	{
+		id: 3,
+		name: 'Strawberry Daquiri',
+		url: 'https://mittkok.expressen.se/wp-content/uploads/2013/12/froznfotolia_80944779_subscription_monthly_xxl-674x700.jpg',
+		garnish: "Strawberry Lime Deco",
+		glass: "chilled Coupe",
+		ingreds: ["0.5oz Lime Juice", "1oz Strawberry Syrup", "1.5 Don Q Cristal Rum"],
+		desc: "Build in small tin, shake vigorously and strain"
+	},
 ]
 
 // pbs font - Nimbus Sans Condensed / 700 <= weight
