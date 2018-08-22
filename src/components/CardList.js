@@ -2,6 +2,10 @@ import React from 'react';
 import Card from './Card'; 
 
 const CardList = ({ drinks }) => {
+	// *** ERROR BOUNDARY
+	// if (true) {
+	// 	throw new Error('NOOOO!'); 
+	// }
 	return ( 
 		<div>
 			{

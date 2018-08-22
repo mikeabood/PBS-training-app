@@ -3,6 +3,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox'; 
 import Scroll from '../components/Scroll'; 
 import Footer from '../components/Footer'; 
+import ErrorBoundary from '../components/ErrorBoundary'; 
 import { drinks } from '../drinks'; 
 import './App.css'; 
 
@@ -65,7 +66,9 @@ render() {
 				<h1 className='f1'>PBS Drink Menu</h1> 
 				<SearchBox searchChange={this.onSearchChange}/> 
 				<Scroll>
+				<ErrorBoundary>
 				<CardList drinks={filteredDrinks} /> 
+				</ErrorBoundary> 
 				</Scroll> 
 				<Footer /> 
 			</div> 
